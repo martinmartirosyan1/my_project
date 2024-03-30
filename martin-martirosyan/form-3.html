@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/form-3.css">
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>sing up</legend>
+
+            <div class="container">
+                <div class="cont">
+                    <label for="firstname">first name:</label>
+                    <input class="valod" id="firstname" type="text" name="first name:" placeholder="first name">
+                </div>
+                <div class="cont">
+                    <label for="last-name">last name:</label>
+                    <input class="valod" id="last-name" type="text" name="last name:" placeholder="enter last name">
+                </div>
+                <div class="cont">
+                    <label for="screen-name">screen name:</label>
+                    <input class="valod" id="screen-name" type="text" name="screen name:" placeholder="screen name">
+                </div>
+                <div class="cont-2">
+                    <ul>
+                        <li> <label>date of birth:</label></li>
+                        <li>
+                            <select class="select-1" name="month" id="month">
+                                <option></option>
+                                <option value="may">may</option>
+                                <option value="june">june</option>
+                                <option value="jule">jule</option>
+                                <option value="aogoust">ougoust</option>
+                            </select>
+                        </li>
+                        <li class="li-2">
+                            <select class="select-2" name="day" id="day">
+                                <option></option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                            </select>
+                        </li>
+                        <li class="li-3">
+                            <select class="select-3" name="year" id="year">
+                                <option></option>
+                                <option>1985</option>
+                                <option>1986</option>
+                                <option>1987</option>
+                                <option>1988</option>
+                            </select>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="cont-3">
+                    <ul>
+                        <li class="li-cont-3-gold"><label>gender:</label></li>
+                        <li>
+                            <input type="radio" name="male" id="male">
+                            <label for="male">male</label>
+                        </li>
+                        <li>
+                            <input id="famale" type="radio" name="male">
+                            <label for="famale">famale</label>
+                        </li>
+                    </ul>
+                </div>
+                <div class="cont-4">
+                    <ul>
+                        <li class="li-5"><label for="country">country:</label></li>
+                        <li class="li-4">
+                            <select class="select-4" name="country" id="country">
+                                <option></option>
+                                <option>USA</option>
+                                <option>Armenia</option>
+                                <option>Africa</option>
+                                <option>rossia</option>
+                            </select>
+                        </li>
+                    </ul>
+                </div>
+                <div class="cont">
+                    <label for="email">E-mail:</label>
+                    <input id="email" type="email" name="email" placeholder="Enter E-mail......">
+                </div>
+
+                <div class="cont">
+                    <label for="phone">Phone:</label>
+                    <input id="phone" type="tel" name="phone" placeholder="Enter Phone......">
+                </div>
+
+                <div class="cont">
+                    <label for="password">password:</label>
+                    <input id="password" type="password" name="password">
+                </div>
+
+                <div class="cont">
+                    <label for="confirmPassword">confirm password:</label>
+                    <input id="confirmPassword" type="password" name="confirmpassword">
+                </div>
+            </div>
+            <div class="cont-5">
+                <input id="close" type="checkbox">
+                <label for="close">i agree to the Terms of Use</label>
+            </div>
+            <div class="footer">
+                <button type="submit" class="button-3">valid</button>
+                <button type="submit" class="button-1">submit</button>
+                <button type="reset" class="button-2">censel</button>
+            </div>
+        </fieldset>
+    </form>
+    <script src="./scripts/form-3.js"></script>
+</body>
+
+</html>

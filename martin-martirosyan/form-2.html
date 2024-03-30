@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/form-2.css">
+    <title>form-2-homework</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Therapeutic request</legend>
+            <div class="cont-1">
+                <label for="date">Date:</label>
+                <input id="date" type="text" placeholder="July 5, 2015" name="dete">
+            </div>
+            <div class="cont-2">
+                <label for="name">Name:</label>
+                <input id="name" type="text" value="Max" name="name">
+            </div>
+            <div class="cont-3">
+                <label for="dob">DOB:</label>
+                <input id="dob" type="date" name="DOB">
+            </div>
+            <div class="cont-4">
+                <label for="ssn">SSN:</label>
+                <input id="ssn" type="text" value="055808885" name="SSN">
+            </div>
+            <br>
+            <div class="cont-5">
+                <label for="phone">phone:</label>
+                <input id="phone" type="tel" name="phone">
+            </div>
+            <div class="cont-6">
+                <label for="diagnosis">Diagnosis:</label>
+                <input id="diagnosis" type="text" name="Diagnosis">
+            </div>
+            <br>
+            <div class="cont-6">
+                <label for="contraindications">Contraindications:</label>
+                <input id="contraindications" type="text" name="Contraindications">
+            </div>
+            <br>
+
+            <ul class="input-group">
+                <li style="margin-top: 2px;">
+                    <label><b>Please provide the <br> following-service:</b></label>
+                </li>
+                <li>
+                    <input class="input" id="input-1" type="radio" name="following-service" value="Physical-therapy">
+                    <label for="input-1">Physical therapy:</label>
+                </li>
+                <li>
+                    <input class="input" id="input-2" type="radio" name="following-service" value="Physical-therapy-2">
+                    <label for="input-2">Physical therapy-2 </label>
+                </li>
+
+                <li>
+                    <input class="input" id="input-3" type="radio" name="following-service" value="Physical-therapy-3">
+                    <label for="input-3">Physical therapy-3:</label>
+                </li>
+                <li>
+                    <input class="input" id="input-4" type="radio" name="following-service" value="Physical-therapy-4">
+                    <label for="input-4">Physical therapy-4</label>
+                </li>
+                <li>
+                    <input class="input" id="input-5" type="radio" name="following-service" value="Physical-therapy-5">
+                    <label for="input-5">Physical therapy-4</label>
+                </li>
+            </ul>
+            <br>
+            <label for="rx"><b> RX:</b></label>
+            <textarea name="RX" id="rx" cols="150" rows="10">
+</textarea>
+            <br><br>
+            <div class="div-checkbox">
+                <label for="Superficial">Superficial</label>
+                <input id="Superficial" class="input" type="checkbox" name="Superficial">
+            </div>
+
+            <div class="div-checkbox">
+                <label for="Deep-heat">Deep heat</label>
+                <input id="Deep-heat" class="input" type="checkbox" name="Deep-heat">
+            </div>
+
+            <div class="div-checkbox">
+                <label for="utrisaaund">utrisaaund</label>
+                <input id="utrisaaund" class="input" type="checkbox" name="utrisaaund">
+            </div>
+
+            <div class="div-checkbox">
+                <label for="mesage">mesage</label>
+                <input id="mesage"  name="mesage" class="input" type="checkbox">
+            </div>
+            <br>
+        </fieldset>
+    </form>
+
+
+    <script></script>
+</body>
+
+</html>

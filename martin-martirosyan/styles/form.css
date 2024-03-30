@@ -1,0 +1,102 @@
+.div-container-1 {
+    display: inline-flex;
+    margin-right: 30px
+}
+
+.div-container-2 {
+    display: inline-block
+}
+
+.container-input {
+    width: 200px;
+
+}
+
+.div-container-3 {
+    display: inline-flex;
+    margin-top: 10px;
+    margin-right: 30px
+}
+
+.div-container-4 {
+    display: inline-flex;
+    margin-top: 10px;
+}
+
+.container-5 {
+    display: inline-flex;
+    margin-right: 140px;
+    margin-bottom: 20px;
+}
+
+.container-6 {
+    display: inline-flex;
+    margin-bottom: 20px;
+}
+
+.container-select {
+    width: 130px;
+}
+
+.cont-1 {
+    display: inline-flex;
+    margin-right: 30px
+}
+
+.cont-2 {
+    display: inline-flex;
+}
+
+fieldset {
+    border: none;
+}
+
+.cont-3 {
+    display: inline-flex;
+    margin-right: 30px
+}
+
+.cont-4 {
+    display: inline-flex;
+}
+
+.cont-5 {
+    display: inline-flex;
+    margin-right: 30px
+}
+
+.cont-6 {
+    display: inline-flex;
+}
+
+.cont-7 {
+    display: inline-flex;
+    margin-right: 30px
+}
+
+.cont-8 {
+    display: inline-flex;
+}
+
+.cont-9 {
+    display: inline-flex;
+    margin-right: 30px
+}
+
+.cont-10 {
+    display: inline-flex;
+}
+
+.cont-11 {
+    display: inline-flex;
+    margin-right: 30px
+}
+.cont-12 {
+    display: inline-flex;
+}
+
+.input-group{
+    display: inline-flex;
+   list-style: none;
+   margin-top:0
+}

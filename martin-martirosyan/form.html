@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/form.css">
+    <title>Document</title>
+    <style>
+        .valid{
+            border:5px solid green
+        }
+        .invalid{
+            border:5px solid red
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>ROOM #1 DETAILS</legend>
+            <!--1-->
+            <div class="div-container-1">
+                <label for="building"> <b>BUILDING:</b></label>
+                <input class="valid" id="building" name="building" type="text">
+            </div>
+            <div class="div-container-2">
+                <label for="floor"><b>floor:</b></label>
+                <select name="floor" class="container-input" id="floor">
+                    <option selected value="volvo">1st Floor</option>
+                    <option>.aaa</option>
+                    <option>.bbb</option>
+                    <option>.ccc</option>
+                </select>
+            </div>
+            <br>
+            <div class="div-container-3">
+                <label for="media_room"><b>Room:</b></label>
+                <select name="media_room" class="container-input" id="media_room">
+                    <option selected>Media Room</option>
+                    <option>.</option>
+                    <option>..</option>
+                    <option>...</option>
+                </select>
+            </div>
+            <div class="div-container-4">
+                <label for="other"> <b>Other:</b></label>
+                <input  name="other" class="invalid" id="other" type="text">
+            </div>
+            <br><br>
+            <!-- 2 -->
+            <div class="container-5">
+                <label for="panel"><b>Flat Panel TV</b> </label>
+                <input class="checkbox-1" name="flat_panel_tv" id="panel" type="checkbox" checked>
+            </div>
+
+            <div class="container-6">
+                <label for="front"><b>front projector</b></label>
+                <input id="front" type="checkbox" name="front_projector" checked>
+            </div>
+            <br>
+            <div class="cont-1">
+                <label class="label-m" for="size"><b>Size:</b></label>
+                <select class="container-select" name="size-panel-tv" id="size">
+                    <option selected>60"</option>
+                    <option>70"</option>
+                    <option>100"</option>
+                </select>
+            </div>
+
+            <div class="cont-2">
+                <label class="label-m" for="aspect"><b>Aspect:</b></label>
+                <select class="container-select" name="aspect" id="aspect">
+                    <option selected>16:9</option>
+                    <option>18:20</option>
+                    <option>19"</option>
+                </select>
+            </div>
+            <br><br>
+            <div class="cont-3">
+                <label class="label-m" for="mount"><b>Mount:</b></label>
+                <select class="container-select" name="mount" id="mount">
+                    <option selected>tilt</option>
+                    <option>chtilt</option>
+                    <option>chchchtilt</option>
+                </select>
+            </div>
+            <div class="cont-4">
+                <label for="type"><b>Type:</b></label>
+                <select class="container-select" name="type" id="type">
+                    <option selected>Mortorized</option>
+                    <option>..</option>
+                    <option>....</option>
+                </select>
+            </div>
+            <br><br>
+            <div class="cont-5">
+                <label for="electrical"><b>Electrical</b>:</label>
+                <select class="container-select" name="electrical" id="electrical">
+                    <option selected>Power Link:</option>
+                    <option>..</option>
+                    <option>....</option>
+                </select>
+            </div>
+
+            <div class="cont-6">
+                <label for="size-2"><b>Size:</b></label>
+                <select class="container-select" name="size-projrctor" id="size-2">
+                    <option selected>100"</option>
+                    <option>200"</option>
+                    <option>300"</option>
+                </select>
+            </div>
+            <br><br><br>
+            <div class="cont-7">
+                <label for="sound-type"><b>Sound Type:</b></label>
+                <select class="container-select" name="sound-type" id="sound-type">
+                    <option selected>Stereo</option>
+                    <option>Stereo-2</option>
+                    <option>Stereo-3</option>
+                </select>
+            </div>
+            <div class="cont-8">
+                <label for="front-L&amp;R"><b>Front L&amp;R:</b></label>
+                <select class="container-select" name="front_L&amp;R" id="front-L&amp;R">
+                    <option selected>In-Wall</option>
+                    <option>in-wall-2</option>
+                    <option>in-wall-3</option>
+                </select>
+            </div>
+            <br><br>
+            <div class="cont-9">
+                <label for="center"><b>Center:</b></label>
+                <select class="container-select" name="center" id="center">
+                    <option selected>In-Wall</option>
+                    <option>in-wall-2</option>
+                    <option>in-wall-3</option>
+                </select>
+            </div>
+
+            <div class="cont-10">
+                <label for="side"><b>Side:</b></label>
+                <select class="container-select" name="side" id="side">
+                    <option selected>In-Wall</option>
+                    <option>in-wall-2</option>
+                    <option>in-wall-3</option>
+                </select>
+            </div>
+            <br><br>
+            <div class="cont-11">
+                <label for="rear"><b>Rear:</b></label>
+                <select class="container-select" name="rear" id="rear">
+                    <option selected>On-Wall</option>
+                    <option>On-wall-2</option>
+                    <option>On-wall-3</option>
+                </select>
+            </div>
+
+            <div class="cont-12">
+                <label for="sub-woofer"><b>Sub-Woofer:</b></label>
+                <select class="container-select" name="sub-woofer" id="sub-woofer">
+                    <option selected>invisible</option>
+                    <option>invisible-2</option>
+                    <option>invisible-3</option>
+                </select>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend><b>Sources</b></legend>
+            <div class="radio-cont">
+                <ul class="input-group">
+                    <li style="margin-top: 2px;">
+                        <label><b>Cabile TV:</b></label>
+                    </li>
+                    <li>
+                        <label for="local-1">Local</label>
+                        <input id="local-1" type="radio" name="cabile-tv" value="local">
+                    </li>
+                    <li>
+                        <label for="local-2">Rack</label>
+                        <input checked id="local-2" type="radio" name="cabile-tv" value="rack">
+                    </li>
+                </ul>
+            </div>
+
+            <div class="radio-cont">
+                <ul class="input-group">
+                    <li style="margin-top: 2px;">
+                        <label><b>DirecTV:</b></label>
+                    </li>
+                    <li>
+                        <label for="local-3">Local</label>
+                        <input id="local-3" type="radio" name="direc-tv" value="local">
+                    </li>
+                    <li>
+                        <label for="local-4">Rack</label>
+                        <input id="local-4" type="radio" name="direc-tv" value="rack">
+                    </li>
+                </ul>
+            </div>
+
+            <div class="radio-cont">
+                <ul class="input-group">
+                    <li style="margin-top: 2px;">
+                        <label><b>Blu-ray-DVD:</b></label>
+                    </li>
+                    <li>
+                        <label for="local-5">Local</label>
+                        <input id="local-5" type="radio" name="blu-ray-dvd" value="local">
+                    </li>
+                    <li>
+                        <label for="local-6">Rack</label>
+                        <input checked id="local-6" type="radio" name="blu-ray-dvd" value="rack">
+                    </li>
+                </ul>
+            </div>
+
+            <div class="radio-cont">
+                <ul class="input-group">
+                    <li style="margin-top: 2px;">
+                        <label><b>iPod/iphone:</b></label>
+                    </li>
+                    <li>
+                        <label for="local-7">Local</label>
+                        <input id="local-7" type="radio" name="ipod/iphone" value="local">
+                    </li>
+                    <li>
+                        <label for="local-8">Rack</label>
+                        <input checked id="local-8" type="radio" name="ipod/iphone" value="rack">
+                    </li>
+                </ul>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend><b>Seating</b></legend>
+            <div style="display: inline-flex;">
+                <label for="number"><b>Number:</b></label>
+                <select name="number" id="number">
+                    <option selected>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>8</option>
+                </select>
+            </div>
+            <br>
+            <div style="display: inline-flex;">
+                <label for="rows"><b>Rows:</b></label>
+                <select name="rows" id="rows">
+                    <option selected>2</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>8</option>
+                </select>
+            </div>
+
+            <div style="display: inline-flex;">
+                <ul class="input-group">
+                    <li style="margin-top: 2px;">
+                        <label><b>Types:</b></label>
+                    </li>
+                    <li>
+                        <label for="local-9">Theater Style:</label>
+                        <input id="local-9" type="radio" name="type." value="theater-style">
+                    </li>
+                    <li>
+                        <label for="local-10">Stadium Style:</label>
+                        <input checked id="local-10" type="radio" name="type." value="Stadium-style">
+                    </li>
+                    <li>
+                        <label for="local-11">Sofa:</label>
+                        <input checked id="local-11" type="radio" name="type." value="sofa">
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <label for="color"><b>Color:</b></label>
+                <select class="container-select" name="color" id="color">
+                    <option selected>red</option>
+                    <option>blue</option>
+                    <option>green</option>
+                    <option>yellow</option>
+                </select>
+            </div>
+        </fieldset>
+        <button type="submit">Submit</button>
+    </form>
+    <script src="./scripts/app.js"></script>
+
+</body>
+
+</html>
